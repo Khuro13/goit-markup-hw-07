@@ -1,8 +1,6 @@
 body {
-  background-color: var(--accent-color);
-  /* color: var(--title-text-color); */
+  background-color: $accent-color;
   color: $primary-text-color;
-
   font-family: 'Roboto', sans-serif;
   letter-spacing: 0.03em;
   line-height: 1.14;
