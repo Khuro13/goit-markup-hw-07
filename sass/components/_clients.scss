@@ -14,14 +14,15 @@
 .clients-icon {
   fill: $social-color-icons;
 }
-.clients-list .item:hover {
-  border-color: $ptimary-blue-color;
-}
 .clients-list .item {
   border: 1px solid #afb1b8;
   border-radius: 4px;
   align-items: center;
   width: 170px;
+
+  &:hover {
+    border-color: $ptimary-blue-color;
+  }
 }
 .clients-link {
   display: flex;

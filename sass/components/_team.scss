@@ -31,11 +31,12 @@
   display: flex;
   justify-content: center;
   align-items: center;
-}
-.social-link:hover,
-.social-link:focus {
+
+  &:hover,
+  &:focus {
   background-color: $ptimary-blue-color;
   color: $accent-color;
+ }
 }
 .social-link:hover svg {
   fill: $accent-color;
